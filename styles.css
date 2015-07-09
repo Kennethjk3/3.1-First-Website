@@ -12,7 +12,7 @@ body {
   min-height: 50%;
   color: white;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
@@ -21,7 +21,6 @@ body {
   background-color: #111;
   position: fixed;
   background-image: url(./images/tim_scott.jpg);
-  /*background-repeat: no-repeat;*/
 }
 #rightcolumn {
   width: 50%;
@@ -29,4 +28,23 @@ body {
   background-image: url(./images/mark_sanford.jpg);
   position: fixed;
   left: 50%;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    color: black;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+th {
+  text-align: center;
+
+
+
+}
+
+td {
+
 }
