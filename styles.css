@@ -1,0 +1,32 @@
+body {
+  background-color: #444;
+  margin: 0
+}
+#wrapper {
+  width: 1005px;
+  margin: 0;
+  position: fixed;
+}
+#leftcolumn, #rightcolumn {
+  border: 1px solid white;
+  min-height: 50%;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+#leftcolumn {
+  width: 50%;
+  background-color: #111;
+  position: fixed;
+  background-image: url(./images/tim_scott.jpg);
+  /*background-repeat: no-repeat;*/
+}
+#rightcolumn {
+  width: 50%;
+  background-color: #777;
+  background-image: url(./images/mark_sanford.jpg);
+  position: fixed;
+  left: 50%;
+}
